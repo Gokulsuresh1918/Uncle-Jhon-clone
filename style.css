@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-nav{
+    
+
+    margin-left: 550px;
+    
+}
+.navbar-nav li{
+    padding-left: 50px;
+}
+.navbar-nav .active a{
+    color: red;
+  }
+.nav-item a{
+    transition: 0.5s ease;
+}
+.nav-item a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/* contents befre footer change required ie aliign properly */
+.col-12{
+     background-color:rgba(242,228,207,255);/*background color */
+}
+.col-12 h3{
+    color: blue;
+    padding-top: 100px;
+}
+.col-12 h1{
+    color: red;
+}
+.col-12 h3,h1,p{
+    margin-left: 100px;
+    text-align: left;
+} 
+.Text-center{
+    
+    padding-left: 100px;
+}
+.Text-center button{
+    width: 150px;
+    height: 50px;
+    background: red;
+    color: white;
+    border-color: transparent;
+    border-radius: 10px;
+    transition: 0.4s ease;
+   
+}
+.Text-center button:hover{
+    background-color: blue;
+}
+.Text-center img{
+    height:15px;
+    padding-left: 10px;
+}
+.Text-center-1 img{
+    height:450px;
+    width: 425px;
+}
+.text-center{
+    background-color:rgba(242,228,207,255) ;
+
+}
+.text-center a{
+    text-decoration: none;
+}
+.text-center img{
+    
+    height: 200px;
+    width: 300;
+}
+.text-center button{
+    position: relative;
+   color: white;
+   background-color: red;
+    text-align: center;
+    
+    height: 60px;
+    width: 200px;
+    border-radius: 25px;
+    display: block;
+   margin-right: 200px;
+   transition:0.4s ease;
+   border-color: transparent;
+   margin-bottom: 50px;
+}
+.text-center button:hover{
+    background-color: blue;
+    color: white;
+   
+}
+.col-12 button{
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.Main-Body{
+    background-color:rgb(235, 197, 220);
+}
+.heading {
+    min-inline-size: 24px; /* Default font size */
+    text-align: center;
+    background-color: blue;
+    color:white;
+    margin:auto;
+
+    
+
+  }
+  
+  /* Media queries for different screen sizes */
+  @media screen and (max-width: 991px) {
+    .heading {
+        min-inline-size: 20px; /* Adjust font size for smaller screens */
+    
+    }
+  }
+  
+  @media screen and (max-width: 771px) {
+    .heading {
+      min-inline-size: 16px; /* Adjust font size for even smaller screens */
+      
+    }
+  }
+.social_icons{
+    margin-top: 10px;
+    justify-content: center;
+}
+  .social_icons img{
+    height:60px;
+    width: 75px;
+    padding-left: 25px;
+  }
+
+ .btn img{
+    height:15px;
+    padding-left: 10px;
+    
+}
